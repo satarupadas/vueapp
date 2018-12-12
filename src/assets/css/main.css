@@ -1,0 +1,58 @@
+html {
+  display: flex;
+  overflow-y: scroll;
+  width: 100%;
+  font-size: 62.5%;
+}
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  width: 100%;
+  background: #E5E5E5;
+  margin: 0;
+}
+@media (min-width: 960px) {
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+}
+@media (min-width: 960px) {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+    padding: 0;
+    color: #000;
+  }
+}
+@media (min-width: 960px) {
+  *,
+  *:before,
+  *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+}
+.card {
+  border-bottom: 1px solid #ccc;
+  padding: 20px;
+}
+.card .wrap-image {
+  width: 80%;
+}
+.card .wrap-image img {
+  width: 100%;
+}
+.wrap-search {
+  padding: 40px 20px ;
+}
+.wrap-search input {
+  width: 60%;
+  margin-left: 20px;
+}
